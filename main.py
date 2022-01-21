@@ -8,7 +8,6 @@ from time import sleep
 from datetime import date
 
 def main():
-    print("New data will be fetched and posted to notion everyday at: {0}".format(os.environ.get('TIME')))
     # Setttings for weather API 
     weatherSetup = {
         'WEATHER_API_KEY' : os.environ.get('WEATHER_API_KEY'),
@@ -75,11 +74,9 @@ def main():
     print(ret)
     dotmatrix.display(ret)
 
+print("New data will be fetched and posted to notion everyday at: {0}".format(os.environ.get('TIME')))
 schedule.every().day.at(os.environ.get('TIME')).do(main)
 
 while True:
     schedule.run_pending()
     sleep(10)
-
-if __name__ == '__main__':
-    main()      
