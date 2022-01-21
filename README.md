@@ -22,7 +22,7 @@ I noticed any day where I had more then 3 cups of coffee or had coffee after 7PM
 
 - Fetch outside temperature and Air Quality of your area from [OpenWeatherMap API](http://openweathermap.org/)(free tier subscription should be more than enough).
 - Fetch Inside temperature and Humidity using sensors
-- Upload this as entry to your habit tracking DB with a date and other fields as new row every morning at 5AM
+- Upload this as entry to your habit tracking DB with a date and other fields as new row every morning at 5AM UTC every morning, can be override using ```TIME``` env variable 
 --------------------
 ## Notion Template
 
@@ -69,4 +69,5 @@ The following [Device Configuration](https://www.balena.io/docs/learn/manage/con
 | LON                                   | Longitude of your location                                                                |
 | NOTION_API_KEY                        | API key received from notion                                                              |
 | DATABASE_ID                           | Page ID of notion database                                                                |
+| TIME                                  | Time at which new notion row is created with data every day (default 05:00 AM UTC)        |
 

@@ -25,7 +25,7 @@ RUN git clone https://github.com/RPi-Distro/RTIMULib \
  && python3 setup.py install \
  && rm -rf ~/RTIMULib
 
-RUN python3 -m pip install requests sense-hat
+RUN python3 -m pip install requests sense-hat schedule
 
 # default values, change using balenaCloud dashboard
 # weather API
@@ -37,6 +37,9 @@ ENV LON=''
 # notion API
 ENV NOTION_API_KEY=''
 ENV DATABASE_ID=''
+
+# time in UTC to run 
+ENV TIME="05:00"
 
 WORKDIR /usr/src/app
 COPY . /usr/src/app
