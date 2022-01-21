@@ -39,7 +39,7 @@ I've created a small [Notion template](https://codensolder.notion.site/codensold
 ## Software required
 
 - balenaCloud account (free)
-- adafruitIO account (free)
+- Notion Integration (free) -- go to developers.notion.com > create an integration with write access and invite that intergation to your notion page using share button
 - balenaEtcher (optional)(free) - to flash the SD card with balenaOS
 - balenaCLI (optional)(free) - if using balena push to deploy the fleet
 
