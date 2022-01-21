@@ -33,8 +33,8 @@ I've created a small [Notion template](https://codensolder.notion.site/codensold
 
 - A Raspberry Pi computer 
 - 16GB Micro-SD Card (recommended Sandisk Extreme Pro SD cards)
-- Power supply(s)
-- Raspberry Pi SenseHAT (currently supported) 
+- 5v Power supply
+- [Raspberry Pi SenseHAT](https://www.raspberrypi.com/products/sense-hat/) (currently supported) 
 --------------------
 ## Software required
 
