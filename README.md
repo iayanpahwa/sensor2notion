@@ -14,15 +14,15 @@ I build this project for my personal use case, but feel free to adopt it for you
 
 An year ago I started tracking my habits in a Notion database, things such as- What time I woke up? and went to bed? My total screen time. If I exercised and listened to Music in a day, how many cups I had in a day and what was my overall mood throughout the day. 
 
-I noticed any day where I had more then 3 cups of coffee or had coffee after 7PM that day I felt really anxious, it was later verified once I cut down my caffeine intake.
+I noticed any day where I had more then 3 cups of coffee or had coffee after 7PM that day I felt really anxious, it was later verified once I cut down my caffeine intake. With this project I want to add few more things in that database such as Temperature, Humidity and Air Quality with a hope to find some patterns in order to better improve my habits and lifestyle.
 
-With this project I want to add few more things in that database such as Temperature, Humidity and Air Quality with a hope to find some patterns in order to better improve my habits and lifestyle.
+
 --------------------
 ## What it does 
 
 - Fetch outside temperature and Air Quality of your area from [OpenWeatherMap API](http://openweathermap.org/)(free tier subscription should be more than enough).
 - Fetch Inside temperature and Humidity using sensors
-- Upload this as entry to your habit tracking DB with a date and other fields.
+- Upload this as entry to your habit tracking DB with a date and other fields as new row every morning at 5AM
 --------------------
 ## Notion Template
 
