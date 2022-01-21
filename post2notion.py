@@ -1,6 +1,15 @@
 import requests, json
 
 def createPage(databaseId, headers, data):
+    '''
+    Create a new notion row incl following data:
+    Date
+    Outdoor Temperature
+    Outdoor Humidity
+    Air Quality
+    Indoor Temperature
+    Indoor Humidity
+    '''
     createUrl = 'https://api.notion.com/v1/pages'
 
     newPageData = {
