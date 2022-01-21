@@ -44,4 +44,4 @@ ENV TIME="05:00"
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 
-CMD ["/bin/bash"]
+CMD ["python3", "main.py"]

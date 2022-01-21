@@ -8,6 +8,7 @@ from time import sleep
 from datetime import date
 
 def main():
+    print("New data will be fetched and posted to notion everyday at: {0}".format(os.environ.get('TIME')))
     # Setttings for weather API 
     weatherSetup = {
         'WEATHER_API_KEY' : os.environ.get('WEATHER_API_KEY'),
