@@ -16,10 +16,15 @@ post-provisioning: >-
 
   After the download is completed user need to add certain env variables using 
   balenaCloud dashboard:
+
   - API key obtained from OpenWeatherMap, 
+  
   - Latitude and Longitude of your area
+  
   - Notion API Key obtained after creating and inviting a Notion integration in your notion page
+  
   - Database ID of Notion page where you want to publish (it's there in the URL when you open page in the browser)
+  
   - Prefered time in UTC at which you want data to be published (default is 05:00 AM UTC )
 
 assets:
