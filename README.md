@@ -1,6 +1,6 @@
 sensor2notion
 
-![](https://raw.githubusercontent.com/iayanpahwa/sensor2notion/master/assets/cover.jpg)
+![](https://raw.githubusercontent.com/iayanpahwa/sensor2notion/master/assets/cover2.jpg)
 
 [Balena](https://balena.io) ❤️ [Notion](http://notion.so) 
 
